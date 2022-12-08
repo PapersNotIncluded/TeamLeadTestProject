@@ -100,14 +100,6 @@ h6 {
     left: -100%;
   }
 }
-@font-face {
-  font-family: "ReformaGroteskBoldC";
-  src: url("/fonts/RefofmaGroteskBold/ReformaGroteskBoldC.ttf");
-}
-@font-face {
-  font-family: "ReformaGroteskMediumC";
-  src: url("/fonts/RefofmaGroteskBold/ReformaGroteskMediumC.ttf");
-}
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
