@@ -1,0 +1,180 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title LevelUp
+        link(rel="stylesheet", href="css/style.css")
+    body
+        .landing-page
+            video.landing-page__video-background(autoplay muted loop)
+                source(src="src/backgrounds.mp4" type="video/mp4") 
+                    
+            h1.landing-page__title LevelUp
+            img.landing-page__img(src="src/prod.webp", alt="Баночка LevelUp")
+            .landing-page__list
+                .landing-page__list__item 
+                    | Lorem ipsum 
+                    span.red-text-element dolor 
+                    | sit amet consectetur adipisicing elit. Neque, dolore?
+                .landing-page__list__item 
+                    | Lorem ipsum dolor sit amet 
+                    span.red-text-element consectetur 
+                    | adipisicing elit.
+                .landing-page__list__item 
+                    | Lorem
+                    span.red-text-element  ipsum 
+                    | dolor sit amet consectetur adipisicing elit. 
+                    span.red-text-element Dolor 
+                    | eveniet dolorum maiores?
+                button.order__button Заказать
+
+        .compound
+            .compound__product-part
+                .compound__product-part__img-container
+                    img.compound__product-part__img-container__img.compound__product-part__img-container__img-smaller(src="src/components/component1.webp", alt="Корень имбиря")
+                .compound__product-part__text Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, veritatis!
+            .compound__product-part 
+                .compound__product-part__img-container
+                    img.compound__product-part__img-container__img.compound__product-part__img-container__img-smaller(src="src/components/component2.webp", alt="Химическая формула")
+                .compound__product-part__text Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit.
+            .compound__product-part 
+                .compound__product-part__img-container
+                    img.compound__product-part__img-container__img(src="src/components/component3.webp", alt="Грецкий орех")
+                .compound__product-part__text Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            .compound__order-block
+                img.compound__order-block__product-img(src="src/prod.webp", alt="Баночка LevelUp")
+                button.order__button Заказать
+            .compound__product-part 
+                .compound__product-part__img-container
+                    img.compound__product-part__img-container__img(src="src/components/component4.webp", alt="Полезная химическая добавка")
+                .compound__product-part__text Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, reiciendis nobis.
+            .compound__product-part 
+                .compound__product-part__img-container
+                    img.compound__product-part__img-container__img(src="src/components/component5.webp", alt="Очищенная вода")
+                .compound__product-part__text Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora amet debitis optio.
+            .compound__product-part 
+                .compound__product-part__img-container
+                    img.compound__product-part__img-container__img.compound__product-part__img-container__img-smaller(src="src/components/component6.webp", alt="Химический элемент")
+                .compound__product-part__text Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, repudiandae!
+        
+        section.carousel
+            button.carousel__arrow.carousel__arrow--left(aria-label="Промотать влево")
+                img(src="src/icons/arrow.svg", alt="Промотать влево")
+            .carousel__wrapper
+                .carousel__content
+                    .carousel__content__item
+                        h2.carousel__content__item__title Scott Young
+                        .carousel__content__item__stars
+                            span
+                            span
+                        p.carousel__content__item__descr Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt id deserunt eveniet, iusto nulla reprehenderit quas magni pariatur! Sint nobis, nemo veniam qui aperiam corporis corrupti facilis perspiciatis error!
+                        img.carousel__content__item__img(src="src/reviews/user1.webp", alt="Отзыв №1")
+                    .carousel__content__item
+                        h2.carousel__content__item__title Jose Jones
+                        .carousel__content__item__stars
+                            span
+                            span
+                        p.carousel__content__item__descr Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt id deserunt eveniet, iusto nulla reprehenderit quas magni pariatur! Sint nobis, nemo veniam qui aperiam corporis corrupti facilis perspiciatis error!
+                        img.carousel__content__item__img(src="src/reviews/user2.webp", alt="Отзыв №2")
+                    .carousel__content__item
+                        h2.carousel__content__item__title William Bennett
+                        .carousel__content__item__stars
+                            span
+                            span
+                        p.carousel__content__item__descr Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt id deserunt eveniet, iusto nulla reprehenderit quas magni pariatur! Sint nobis, nemo veniam qui aperiam corporis corrupti facilis perspiciatis error!
+                        img.carousel__content__item__img(src="src/reviews/user3.webp", alt="Отзыв №2")
+                    .carousel__content__item
+                        h2.carousel__content__item__title Stephen Reed
+                        .carousel__content__item__stars
+                            span
+                            span
+                        p.carousel__content__item__descr Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt id deserunt eveniet, iusto nulla reprehenderit quas magni pariatur! Sint nobis, nemo veniam qui aperiam corporis corrupti facilis perspiciatis error!
+                        img.carousel__content__item__img(src="src/reviews/user4.webp", alt="Отзыв №4")
+                    .carousel__content__item
+                        h2.carousel__content__item__title Charles Brown
+                        .carousel__content__item__stars
+                            span
+                            span
+                        p.carousel__content__item__descr Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt id deserunt eveniet, iusto nulla reprehenderit quas magni pariatur! Sint nobis, nemo veniam qui aperiam corporis corrupti facilis perspiciatis error!
+                        img.carousel__content__item__img(src="src/reviews/user5.webp", alt="Отзыв №5")
+                    .carousel__content__item
+                        h2.carousel__content__item__title Steven Moore
+                        .carousel__content__item__stars
+                            span
+                            span
+                        p.carousel__content__item__descr Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt id deserunt eveniet, iusto nulla reprehenderit quas magni pariatur! Sint nobis, nemo veniam qui aperiam corporis corrupti facilis perspiciatis error!
+                        img.carousel__content__item__img(src="src/reviews/user6.webp", alt="Отзыв №6")
+                    .carousel__content__item
+                        h2.carousel__content__item__title Fritz Gonzales
+                        .carousel__content__item__stars
+                            span
+                            span
+                        p.carousel__content__item__descr Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt id deserunt eveniet, iusto nulla reprehenderit quas magni pariatur! Sint nobis, nemo veniam qui aperiam corporis corrupti facilis perspiciatis error!
+                        img.carousel__content__item__img(src="src/reviews/user7.webp", alt="Отзыв №7")
+                    .carousel__content__lastitem
+            button.carousel__arrow(aria-label="Промотать вправо")
+                img(src="src/icons/arrow.svg", alt="Промотать вправо")
+            .carousel__pivots
+                .carousel__pivots__item.active
+                .carousel__pivots__item
+                .carousel__pivots__item
+                .carousel__pivots__item
+                .carousel__pivots__item
+                .carousel__pivots__item
+                .carousel__pivots__item
+        
+        .promo
+            img.promo__img(src="src/doctor.webp", alt="Баночка LevelUp")
+            .promo__text 
+                span.red-text-element Lorem 
+                | ipsum dolor sit amet consectetur adipisicing elit. 
+                span.red-text-element Architecto 
+                | nihil non quibusdam. 
+                span.red-text-element Blanditiis 
+                | nulla quasi sequi saepe sed id cumque quia eum magnam suscipit dolor ad molestiae, corrupti esse 
+                span.red-text-element ipsam 
+                | exercitationem, mollitia similique omnis delectus 
+                span.red-text-element cum 
+                | sinventore. Recusandae, ducimus 
+                span.red-text-element magnam?
+            ul.promo__list
+                li.promo__list__item 
+                    | Lorem ipsum 
+                    span.red-text-element dolor 
+                    br
+                    | sit amet.
+                li.promo__list__item 
+                    | Lorem ipsum dolor sit amet 
+                    span.red-text-element consectetur 
+                    | adipisicing.
+                li.promo__list__item 
+                    | Lorem 
+                    span.red-text-element ipsum 
+                    | dolor sit amet consectetur.
+            button.order__button.promo__button Заказать
+        
+        .connection
+            h2.connection__title LevelUp
+            .connection__price
+                .connection__price__old  &nbsp;5000 руб.&nbsp;
+                .connection__price__new 999 руб. 
+                .connection__price__timer.red-text-element 00:20:00 
+            
+            .connection__form
+                .connection__form__container
+                    .connection__form__container__name__wrapper
+                        input.connection__form__container__name(type="text")
+                        .connection__form__container__name__placeholder Фамилия Имя Отчество
+                    
+                    .connection__form__container__phone__wrapper
+                        input.connection__form__container__phone(type="number")
+                        .connection__form__container__phone__placeholder 84991224578
+                    
+                    button.order__button.connection__form__container__button Заказать
+            img.connection__img(src="src/prod.webp", alt="Баночка LevelUp")
+    script(src="js/carousel.js") 
+    script(src="js/stars.js")
+    script(src="js/scroll.js")
+    script(src="js/timer.js")
